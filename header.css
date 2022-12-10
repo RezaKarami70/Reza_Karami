@@ -7,8 +7,7 @@
 
 .Codingyaar {
   font-weight: bold;
-  font-size: 20px; 
-  font}
+  font-size: 20px; }
 
 
 .innersiteheader {
@@ -29,10 +28,23 @@ a {
 	color: white;
 	margin-left: 1rem;
 }
-.button {
-	background-color:pink;
-	border-bottom-width:2px;
-	border-color:white;
-	display:flex;
+
+.button{
+	border-style: solid;
+	border-color: white;
+	border-radius: 2px;
+	border-width: 2px;
+	margin-left: 5px;
+	padding: 3px;
 	color: white;
+
+
+}
+#buttonlink{
+	margin-left: 0%;
+	text-align: center;
+	padding: 3px;
+	color: white;
+	position: relative;
+
 }
