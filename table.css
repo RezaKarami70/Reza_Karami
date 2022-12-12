@@ -1,0 +1,21 @@
+table,
+td {
+	background-color: pink;
+    border: 2px solid black;
+}
+
+thead,
+tfoot {
+    background-color: red;
+    color: black;
+}
+
+
+.div{
+	position: absolute;
+	top: 80px;
+	right: 0
+	size: 100%;
+	table-layout: center;
+
+}
