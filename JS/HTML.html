@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <style>
+    </style>
+    <script type="text/javascript" src="JAVASCRIPT.js"></script>
+</head>
+
+<body id="fullbody" style=" background-color: brown">
+    <input type="button" value="change-background-color" onclick="changeColor()">
+    <br>
+    <br>
+    <input type="button" value="show/hide-text" onclick="showHideText()">
+    <br>
+    <P id="p1" style="border-style: solid; text-align: center; display:none;">
+        The text is here
+    </P>
+    <br>
+    <br>
+    <input type="button" value="increase" onclick="increaseing()">
+    <p id="p2">0</p>
+    <input type="button" value="decrease" onclick="decreaseing()">
+    <br>
+    <br>
+    <br>
+    <form name="myform">
+        Enter the number to check is it prime or not:
+        <br>
+        <input type="button" value="Check" onclick="prime()">
+        <br>
+        <br>
+    </form>
+
+    <form name="myform2">
+        Enter 3 number to find the largest:
+        <br>
+        <input type="button" value="find-Largest" onclick="largest()">
+        <br>
+        <br>
+    </form>
+
+    <form name="myform3">
+        Remove item from an array
+        <br>
+        <input type="button" value="Remove-form-array" onclick="remove()">
+        <br>
+        <br>
+    </form>
+    <form name="myform3">
+        Remove duplicate item from an array
+        <br>
+        <input type="button" value="Remove--duplicate-form-array" onclick="remove_duplicate()">
+        <br>
+        <br>
+        <br>
+    </form>
+    <p style="font-size: larger;">Sign-Up form</p>
+
+    <form name="signupForm" method="post">
+        <div class="container">
+            <label for="email"><b>Email Address</b></label>
+            <input type="text" id="email" name="email" placeholder="Email Address" required ondragleave="">
+            <label for="pass"><b>Password</b></label>
+            <input type="password" id="pass" name="pass" placeholder="Enter Password" required>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+            <button type="submit" onclick="validate()">submit</button>
+        </div>
+    </form>
+
+
+
+
+</body>
+
+</html>
